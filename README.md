@@ -55,6 +55,8 @@ Also, attached is the web extension `linkRenderNode.js` (Credit to aphaits), whi
 
 ![ComfyUI_00165_](https://github.com/nach00/simple-comfyui-styles/assets/5945533/c25a606f-8865-4341-bc52-394da2f92537)
 
+This image does not match the one shown in the workflow because the upscaling resized the image to 262mb (11k x 11k resolution)
+
 
 Here are the list of styles available:
 
