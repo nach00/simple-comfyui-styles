@@ -37,32 +37,6 @@
       ]
     },
     {
-      "id": 8,
-      "type": "SaveImage",
-      "pos": [
-        193,
-        -237
-      ],
-      "size": {
-        "0": 747.2532348632812,
-        "1": 748.5946655273438
-      },
-      "flags": {},
-      "order": 5,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 10
-        }
-      ],
-      "properties": {},
-      "widgets_values": [
-        "ComfyUI"
-      ]
-    },
-    {
       "id": 2,
       "type": "CheckpointLoaderSimple",
       "pos": [
@@ -110,59 +84,6 @@
       },
       "widgets_values": [
         "dreamshaper_8.safetensors"
-      ]
-    },
-    {
-      "id": 13,
-      "type": "ClipTextFromTemplateEncode",
-      "pos": [
-        220,
-        561
-      ],
-      "size": [
-        686.4801342675778,
-        274.84596538574215
-      ],
-      "flags": {},
-      "order": 2,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 11
-        }
-      ],
-      "outputs": [
-        {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "links": [
-            22
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "negative",
-          "type": "CONDITIONING",
-          "links": [
-            21
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "ClipTextFromTemplateEncode"
-      },
-      "widgets_values": [
-        "Old woman posing next to dog, hires, (embedding:fcDetailPortrait.pt:1)",
-        "",
-        "pixel art",
-        "None",
-        "None",
-        "No"
       ]
     },
     {
@@ -216,7 +137,7 @@
         "Node name for S&R": "KSampler"
       },
       "widgets_values": [
-        168133892103695,
+        241726707405971,
         "randomize",
         20,
         8,
@@ -265,6 +186,85 @@
       "properties": {
         "Node name for S&R": "VAEDecode"
       }
+    },
+    {
+      "id": 13,
+      "type": "ClipTextFromTemplateEncode",
+      "pos": [
+        220,
+        561
+      ],
+      "size": [
+        686.4801342675778,
+        274.84596538574215
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 11
+        }
+      ],
+      "outputs": [
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "links": [
+            22
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "links": [
+            21
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ClipTextFromTemplateEncode"
+      },
+      "widgets_values": [
+        "technician working on heavy machinery",
+        "",
+        "3d-model",
+        "None",
+        "None",
+        "No"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "SaveImage",
+      "pos": [
+        168,
+        -266
+      ],
+      "size": {
+        "0": 747.2532348632812,
+        "1": 748.5946655273438
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 10
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "ComfyUI"
+      ]
     }
   ],
   "links": [
