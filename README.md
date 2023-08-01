@@ -17,8 +17,11 @@ styles.csv MUST go in the root folder (ComfyUI_windows_portable)
 There is also another workflow called "3xUpscale" that you can use to increase the resolution and enhance your image. This workflow uses the upscalers: x1_ITF_SkinDiffDetail_Lite_v1, 4x_NMKD-Siax_200k, 4x-UltraSharp. I did not combine the two because the original workflow is designed for speed and simplicity. The workflow named "simple-styles-workflow-with-upscaling" will generate the image, then upscale in one process. 
 
 Upscale models can be found here:
+
 x1_ITF_SkinDiffDetail_Lite_v1 https://drive.google.com/drive/folders/1VkT6tpbCPn2gKZYPtawDJGMpLg6EyRpO?usp=sharing (Source: https://upscale.wiki/wiki/Model_Database#Skin)
+
 4x_NMKD-Siax_200k https://huggingface.co/gemasai/4x_NMKD-Siax_200k/tree/main
+
 4x-UltraSharp https://mega.nz/folder/qZRBmaIY#nIG8KyWFcGNTuMX_XNbJ_g (Source: https://upscale.wiki/wiki/Model_Database#Universal_Models)
 
 Alternatively, you could use StabilityAI's version, here: https://huggingface.co/stabilityai/stable-diffusion-x4-upscaler but you'll need to clone the repo using the specified directions, as you cannot download the it normally.
