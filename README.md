@@ -28,11 +28,15 @@ Alternatively, you could use StabilityAI's version, here: https://huggingface.co
 
 Also, attached is the web extension "linkRenderNode.js" (Credit to aphaits), which enables straight lines with right angles, seen below. If you do not wish to enable this feature, you can simply delete the web/extensions folder from the repo, or change the app.canvas.links_render_mode.
 
+
 0 = angular line
+
 
 1 = somewhat direct, but slightly curved line
 
+
 2 = normal curvy line
+
 
 ![image](https://github.com/nach00/simple-comfyui-styles/assets/5945533/ba38b163-ea21-4c45-8a88-8699c537f591)
 
