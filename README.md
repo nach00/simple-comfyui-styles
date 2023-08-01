@@ -1,6 +1,12 @@
 # simple-comfyui-styles
 
-EDIT: For now, this workflow seems to work with DreamShaper (https://civitai.com/models/4384/dreamshaper), I get a `pooled_output error` when using `sdxl 1.0 base` or `refiner`
+EDIT: For now, this workflow seems to work with the models listed below (tested):
+
+DreamShaper (https://civitai.com/models/4384/dreamshaper)
+majicMIX realistic (https://civitai.com/models/43331/majicmix-realistic)
+
+I get a `pooled_output error` when using `sdxl 1.0 base` or `refiner`.
+
 
 Simply apply precompiled styles to ComfyUI
 
