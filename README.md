@@ -1,5 +1,5 @@
 # simple-comfyui-styles
- Simply apply precompiled styles to ComfyUI
+Simply apply precompiled styles to ComfyUI
 
 Credit to fretts4505 for creating the styles node
 https://civitai.com/models/28238/simple-text-style-template-node-for-comfyui
@@ -11,6 +11,8 @@ Credit to Olivio Sarikas for workflow setup
 https://www.youtube.com/watch?v=TYk6taV-gVc
 
 I simply combined the two for use in ComfyUI. I also had to edit the styles.csv file to remove some incompatible characters (mostly accents). I also created the workflow based on Olivio's video, and replaced the positive and negative nodes with the new styles node. This workflow uses SDXL 1.0 Refiner for very quick image generation. 
+
+styles.csv MUST go in the root folder (ComfyUI_windows_portable)
 
 There is also another workflow called "3xUpscale" that you can use to increase the resolution and enhance your image. This workflow uses the upscalers: x1_ITF_SkinDiffDetail_Lite_v1, 4x_NMKD-Siax_200k, 4x-UltraSharp. I did not combine the two because the original workflow is designed for speed and simplicity. The workflow named "simple-styles-workflow-with-upscaling" will generate the image, then upscale in one process. 
 
