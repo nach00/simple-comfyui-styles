@@ -1,4 +1,7 @@
 # simple-comfyui-styles
+
+EDIT: For now, this workflow seems to work with DreamShaper (https://civitai.com/models/4384/dreamshaper), I get a `pooled_output error` when using `sdxl 1.0 base` or `refiner`
+
 Simply apply precompiled styles to ComfyUI
 
 Credit to fretts4505 for creating the styles node
