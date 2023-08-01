@@ -40,6 +40,12 @@ Also, attached is the web extension `linkRenderNode.js` (Credit to aphaits), whi
 
 ![image](https://github.com/nach00/simple-comfyui-styles/assets/5945533/ba38b163-ea21-4c45-8a88-8699c537f591)
 
+![image](https://github.com/nach00/simple-comfyui-styles/assets/5945533/f2058ed7-523d-4cd5-97dc-a7b3b378ebbf)
+
+![image](https://github.com/nach00/simple-comfyui-styles/assets/5945533/59ddc9b0-1e2c-4296-ac8c-13c0c28099c2)
+
+
+
 
 Here are the list of styles available:
 
