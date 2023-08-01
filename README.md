@@ -44,7 +44,7 @@ Also, attached is the web extension `linkRenderNode.js` (Credit to aphaits), whi
 
 ![image](https://github.com/nach00/simple-comfyui-styles/assets/5945533/59ddc9b0-1e2c-4296-ac8c-13c0c28099c2)
 
-
+![ComfyUI_00165_](https://github.com/nach00/simple-comfyui-styles/assets/5945533/c25a606f-8865-4341-bc52-394da2f92537)
 
 
 Here are the list of styles available:
